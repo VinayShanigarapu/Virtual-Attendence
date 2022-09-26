@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Virtual Attendance</string>
+    <string name="col1">Rollno</string>
+    <string name="col2">Name</string>
+    <string name="col3">Branch</string>
+    <string name="H3Roll">20R21A05H3</string>
+    <string name="H3Name">Shanigarapu Vinay</string>
+    <string name="rowBranch">CSE C</string>
+    <string name="H8Roll">20R21A05H8</string>
+    <string name="H8Name">Bhavish Reddy</string>
+    <string name="G5Roll">20R21A05G5</string>
+    <string name="G5Name">Bhargav Manne</string>
+    <string name="H2Roll">20R21A05H2</string>
+    <string name="H2Name">Shaik Ahmed</string>
+    <string name="submit">Submit</string>
+    <string name="vinay">Vinay</string>
+</resources>

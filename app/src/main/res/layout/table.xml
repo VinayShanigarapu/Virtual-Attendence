@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:padding="20dp">
+
+        <TableRow android:background="@color/Dark_Red">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7"
+                android:padding="10dp"
+                android:text="@string/col1"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="10dp"
+                android:text="@string/col2"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="10dp"
+                android:text="@string/col3"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+            <CheckBox
+                android:id="@+id/c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7.2"
+                android:padding="10dp"
+                android:text="@string/H3Roll"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="10dp"
+                android:text="@string/H3Name"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="10dp"
+                android:text="@string/rowBranch"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/c5h3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7.2"
+                android:padding="10dp"
+                android:text="@string/H8Roll"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="10dp"
+                android:text="@string/H8Name"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="10dp"
+                android:text="@string/rowBranch"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/c5h8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7.2"
+                android:padding="10dp"
+                android:text="@string/G5Roll"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="10dp"
+                android:text="@string/G5Name"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="10dp"
+                android:text="@string/rowBranch"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/c5g5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="7.2"
+                android:padding="10dp"
+                android:text="@string/H2Roll"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:padding="10dp"
+                android:text="@string/H2Name"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:padding="10dp"
+                android:text="@string/rowBranch"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+            <CheckBox
+                android:id="@+id/c5h2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onCheckboxClicked" />
+        </TableRow>
+
+        <Button
+            android:id="@+id/b"
+            android:layout_marginTop="100dp"
+            android:backgroundTint="@color/Dark_Red"
+            android:text="@string/submit"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/res"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:text="RESULT"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+
+    </TableLayout>
+
+</RelativeLayout>
